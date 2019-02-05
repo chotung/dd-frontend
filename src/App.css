@@ -30,3 +30,60 @@
     transform: rotate(360deg);
   }
 }
+
+
+.dashboard-container {
+  height: 500px;
+  width: 90%;
+  border: 1px solid black;
+  margin: auto;
+  overflow-y: auto;
+  margin-top: 30px;
+}
+
+
+.dashboard {
+  border-top: 1px solid black;
+  display:flex;
+  position: relative;
+  flex-direction: row;
+}
+
+.input-text {
+  width: 30%;
+}
+
+.dashboard h1 {
+  padding: 10px 40px;
+}
+
+
+.dashboard p {
+  order: 3;
+  position: absolute;
+  top: 0;
+  left: 95%;
+  padding: 10px;
+}
+
+.dashboard li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.create-dashboard {
+  padding: 20px;
+}
+
+.create-dashboard label {
+  padding: 10px;
+}
+.create-dashboard input {
+  border-radius: 10px;
+  outline: none;
+}
+
+.Graph {
+  height: 200px;
+  width: auto;
+}
